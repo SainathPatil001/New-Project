@@ -1,0 +1,3 @@
+1. In Our Editor Mobile View, Height and Width of our view are Same as of android phone or ios phone. But the device height and device width remains the same as of Desktop view. So this is causing an issue.
+2. Client is using "max-device-width"(which is depreciated) instead of "max-width" in media query which is causing an issue.
+3. So if client use max-width property in the  media query this will solve the problem.
